@@ -1,17 +1,29 @@
-#verticalSlider {
-    height: 900px;
-}
+/*#verticalSlider {*/
+/*    height: 900px;*/
+/*}*/
 
-.tns-controls {
-    /*display: none ;*/
-    transform: rotate(-90deg);
-    transform-origin: right, top;
-    -ms-transform: rotate(-90deg);
-    -ms-transform-origin:right, top;
-    -webkit-transform: rotate(-90deg);
-    -webkit-transform-origin:right, top;
-    position: absolute;
-    z-index: 50;
-    display: table-footer-group;
-    float: right;
-}
+/*.tns-controls {*/
+/*    !*display: none ;*!*/
+/*    transform: rotate(-90deg);*/
+/*    transform-origin: right, top;*/
+/*    -ms-transform: rotate(-90deg);*/
+/*    -ms-transform-origin:right, top;*/
+/*    -webkit-transform: rotate(-90deg);*/
+/*    -webkit-transform-origin:right, top;*/
+/*    position: absolute;*/
+/*    z-index: 50;*/
+/*    display: table-footer-group;*/
+/*    float: right;*/
+/*}*/
+
+/*.header {*/
+/*    !*margin: 0;*!*/
+/*    padding: 0;*/
+/*    position: absolute;*/
+/*    margin-top: 30%;*/
+/*    margin-left: 8%;*/
+/*    color: white;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 4px;*/
+/*    font-size: 58px;*/
+/*}*/
