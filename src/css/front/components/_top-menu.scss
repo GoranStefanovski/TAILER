@@ -1,4 +1,11 @@
 #logo__top {
+  @media only screen and (max-width: 480px) {
+    margin-left: 76px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    margin-left: 48px;
+  }
 }
 
 .navBar {
@@ -26,7 +33,7 @@
 }
 
 .menu-bars {
-  margin-left: 2rem;
+  //margin-left: 2rem;
   font-size: 2rem;
   background: none;
 }
@@ -71,19 +78,39 @@
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 8px;
+
+  @media only screen and (max-width: 480px) {
+    text-align: center;
+  }
+  @media only screen and (max-width: 380px) {
+    text-align: center;
+    //margin-top: 370px;
+    font-size: 35px;
+    //width: 74%;
+  }
 }
 
 .nav-list {
   margin: 50px;
+  @media only screen and (max-width: 480px) {
+    margin: 15px;
+  }
 }
 
 .nav-text a:hover {
   background-color: white;
   color: #212121;
+
+  @media only screen and (max-width: 480px) {
+    background-color: white;
+    color: #212121;
+  }
 }
 
 .nav-menu-items {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-toggle {
@@ -101,6 +128,25 @@
   display: flex;
   justify-content: center;
   width: 100%;
+
+  @media only screen and (max-width: 480px) {
+    margin-right: 80px;
+    top: 0;
+    margin-top: -388px;
+    margin-bottom: -329px;
+  }
 }
+
+.nav-logo-menu {
+  width: 230px;
+  height: auto;
+  margin-left: 44%;
+  @media only screen and (max-width: 480px) {
+    margin-left: 19%;
+    margin-top: -56px;
+  }
+}
+
+
 
 

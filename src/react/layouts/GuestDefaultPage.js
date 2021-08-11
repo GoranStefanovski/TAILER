@@ -1,6 +1,7 @@
 import React from 'react';
 import TinySlider from "tiny-slider-react";
 import NavBar from "../../components/NavBar/NavBar";
+import {Link} from "react-router-dom";
 
 // import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
@@ -20,14 +21,16 @@ class GuestDefaultPage extends React.Component {
             }, 250);
 
             let scrollDir = event.deltaY > 1 ? 1 : -1;
-
-            if (scrollDir > 0) {
-                this.ts.slider.goTo('next');
-            } else {
-                this.ts.slider.goTo('prev');
+            if (this.ts != null) {
+                if (scrollDir > 0) {
+                    this.ts.slider.goTo('next');
+                } else {
+                    this.ts.slider.goTo('prev');
+                }
             }
         });
     };
+
 
     render() {
 
@@ -35,16 +38,17 @@ class GuestDefaultPage extends React.Component {
             loop: true,
             rewind: false,
             mode: 'carousel',
-            lazyload: true,
+            lazyLoad: true,
             nav: false,
             mouseDrag: true,
             axis: 'vertical',
             preventScrollOnTouch: 'force',
-            animateIn: "jello",
-            animateOut: "rollOut",
+            animateIn: "fadeIn",
+            animateOut: "fadeOut",
+            animateDelay: 300,
             speed: 1000,
-            swipeAngle: false,
-            controls: false
+            // swipeAngle: false,
+            controls: false,
         };
 
         const imgs = [
@@ -59,13 +63,14 @@ class GuestDefaultPage extends React.Component {
                 style: {
                     backgroundImage: `url("Images/Technical.jpg")`,
                     height: '100vh',
+
                 },
                 title: "Technical"
             },
             {
                 style: {
                     backgroundImage: `url("Images/Personal.jpg")`,
-                    height: '100vh'
+                    height: '100vh',
                 },
                 title: "Personal"
 
@@ -74,7 +79,7 @@ class GuestDefaultPage extends React.Component {
             <TinySlider settings={settings} ref={ts => this.ts = ts}>
                 {imgs.map((el, index) => (
                     <div key={index} style={{position: "relative"}}>
-                        <div style={el.style}>
+                        <div style={el.style} className="bg-Image">
                             <NavBar/>
                             <div className="menuBot">
                                 <hr className="header__line"/>
@@ -83,11 +88,10 @@ class GuestDefaultPage extends React.Component {
                                 <h1 className="header__text">{el.title}</h1>
                                 {/*</ScrollAnimation>*/}
                                 <div className="header__button">
-                                    <div style={{textDecoration: 'none'}} id="header__router" to={el.title}
-                                         component={el.title}>
+                                    <Link style={{textDecoration: 'none'}} id="header__router" to={el.title}>
                                         <h4 className="header__router__text">Explore</h4>
                                         <button>--></button>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

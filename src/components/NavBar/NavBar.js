@@ -33,8 +33,8 @@ function NavBar() {
                                                 <AiIcons.AiOutlineClose/>
                                             </Link>
                                         </li>
-                                        <Link id='nav-logo' to='/'>
-                                            <Logo/>
+                                        <Link class='nav-logo' to='/'>
+                                            <img className="nav-logo-menu" src='/Images/logo.png' alt="Logo Menu"/>
                                         </Link>
                                         {SidebarData.map((item, index) => {
                                             return (<div className="nav-list">
