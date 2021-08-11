@@ -83,7 +83,7 @@ class GuestDefaultPage extends React.Component {
                                 <h1 className="header__text">{el.title}</h1>
                                 {/*</ScrollAnimation>*/}
                                 <div className="header__button">
-                                    <div style={{textDecoration: 'none'}} id="header__router" path={el.title}
+                                    <div style={{textDecoration: 'none'}} id="header__router" to={el.title}
                                          component={el.title}>
                                         <h4 className="header__router__text">Explore</h4>
                                         <button>--></button>

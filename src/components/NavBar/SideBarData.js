@@ -13,10 +13,5 @@ export const SidebarData = [
         title: 'personal',
         path: '/personal',
         cName: 'nav-text'
-    },
-    {
-        title: 'about us',
-        path: '/about us',
-        cName: 'nav-text'
-    },
+    }
 ];

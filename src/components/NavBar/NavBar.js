@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {SidebarData} from './SideBarData';
 import {IconContext} from 'react-icons';
 import Logo from "../Logo/Logo";
@@ -13,8 +13,7 @@ function NavBar() {
 
     return (
         <>
-            <Router>
-                <div className="navBar">
+            <div className="navBar">
                     <div className="menuTop">
                         <div className="menuTop__left">
                             <Logo/>
@@ -41,7 +40,6 @@ function NavBar() {
                                             return (<div className="nav-list">
                                                     <li key={index} className={item.cName}>
                                                         <Link to={item.path}>
-                                                            {item.icon}
                                                             <span>{item.title}</span>
                                                         </Link>
                                                     </li>
@@ -54,7 +52,7 @@ function NavBar() {
                         </div>
                     </div>
                 </div>
-            </Router>
+
         </>
     );
 }
