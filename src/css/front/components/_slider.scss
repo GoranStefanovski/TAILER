@@ -2,8 +2,6 @@
   height: 100%;
 }
 
-
-
 .tns-controls {
   /*display: none ;*/
   transform: rotate(-90deg);
@@ -33,6 +31,10 @@
     margin-top: 240px;
     font-size: 40px;
   }
+
+  @media only screen and (min-width: 1024px) {
+    margin: 25% 0 0 4%;
+  }
 }
 
 .header__line {
@@ -49,6 +51,10 @@
     font-size: 40px;
     width: 60%;
   }
+
+  @media only screen and (min-width: 1024px) {
+    margin: 26% 0 0 4%;
+  }
 }
 
  .bg-Image {
@@ -63,6 +69,10 @@
   width: 800px;
   position: absolute;
   margin: 25% 0 0 4.5%;
+
+  @media only screen and (min-width: 1024px) {
+    margin: 35% 0 0 4.5%;
+  }
 }
 
 #header__router {

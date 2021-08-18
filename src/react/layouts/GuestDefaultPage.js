@@ -34,12 +34,8 @@ class GuestDefaultPage extends React.Component {
     render() {
 
         const settings = {
-            // responsive: true,
             container: '.slider__div',
             viewportMax: true,
-            // fixedWidth: true,
-            // loop: true,
-            // rewind: false,
             mode: 'carousel',
             lazyload: true,
             nav: false,
@@ -48,7 +44,6 @@ class GuestDefaultPage extends React.Component {
             preventScrollOnTouch: 'force',
             animateIn: "fadeIn",
             animateOut: "fadeOut",
-            // animateDelay: 300,
             speed: 2000,
             swipeAngle: false,
             controls: false,
@@ -59,6 +54,9 @@ class GuestDefaultPage extends React.Component {
                 style: {
                     backgroundImage: `url("Images/Commercial.jpg")`,
                     height: '100vh',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
                 },
                 title: "Commercial"
             },
@@ -66,7 +64,9 @@ class GuestDefaultPage extends React.Component {
                 style: {
                     backgroundImage: `url("Images/Technical.jpg")`,
                     height: '100vh',
-
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
                 },
                 title: "Technical"
             },
@@ -74,6 +74,9 @@ class GuestDefaultPage extends React.Component {
                 style: {
                     backgroundImage: `url("Images/Personal.jpg")`,
                     height: '100vh',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
                 },
                 title: "Personal"
 
