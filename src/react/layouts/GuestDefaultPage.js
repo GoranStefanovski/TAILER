@@ -3,7 +3,6 @@ import TinySlider from "tiny-slider-react";
 import NavBar from "../../components/NavBar/NavBar";
 import {Link} from "react-router-dom";
 
-// import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 class GuestDefaultPage extends React.Component {
 
@@ -35,26 +34,30 @@ class GuestDefaultPage extends React.Component {
     render() {
 
         const settings = {
-            loop: true,
-            rewind: false,
+            // responsive: true,
+            container: '.slider__div',
+            viewportMax: true,
+            // fixedWidth: true,
+            // loop: true,
+            // rewind: false,
             mode: 'carousel',
-            lazyLoad: true,
+            lazyload: true,
             nav: false,
             mouseDrag: true,
             axis: 'vertical',
             preventScrollOnTouch: 'force',
             animateIn: "fadeIn",
             animateOut: "fadeOut",
-            animateDelay: 300,
-            speed: 1000,
-            // swipeAngle: false,
+            // animateDelay: 300,
+            speed: 2000,
+            swipeAngle: false,
             controls: false,
         };
 
         const imgs = [
             {
                 style: {
-                    backgroundImage: `url("Images/commercial.jpg")`,
+                    backgroundImage: `url("Images/Commercial.jpg")`,
                     height: '100vh',
                 },
                 title: "Commercial"
@@ -75,7 +78,7 @@ class GuestDefaultPage extends React.Component {
                 title: "Personal"
 
             }];
-        return (<div>
+        return (<div className="slider__div">
             <TinySlider settings={settings} ref={ts => this.ts = ts}>
                 {imgs.map((el, index) => (
                     <div key={index} style={{position: "relative"}}>
@@ -84,9 +87,7 @@ class GuestDefaultPage extends React.Component {
                             <div className="menuBot">
                                 <hr className="header__line"/>
                                 <br/>
-                                {/*<ScrollAnimation animateOut="fadeOut">*/}
                                 <h1 className="header__text">{el.title}</h1>
-                                {/*</ScrollAnimation>*/}
                                 <div className="header__button">
                                     <Link style={{textDecoration: 'none'}} id="header__router" to={el.title}>
                                         <h4 className="header__router__text">Explore</h4>

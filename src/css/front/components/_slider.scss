@@ -1,6 +1,8 @@
 #verticalSlider {
-  height: 900px;
+  height: 100%;
 }
+
+
 
 .tns-controls {
   /*display: none ;*/
@@ -39,7 +41,7 @@
   color: white;
   background-color: white;
   width: 32%;
-  height: 1px;
+  height: 2px ;
 
   @media only screen and (max-width: 480px) {
     text-align: left;

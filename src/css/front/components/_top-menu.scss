@@ -42,15 +42,18 @@
   background-color: #212121;
   width: 100%;
   height: 100vh;
-  display: flex;
+  //display: flex;
   justify-content: center;
   position: absolute;
   top: 0;
   right: -110%;
   transition: 850ms;
+display:flex;
+  //display:none;
 }
 
 .nav-menu.active {
+  //display: flex;
   right: 0;
   transition: 550ms;
 }
