@@ -1,10 +1,18 @@
 import React from 'react';
 import TinySlider from "tiny-slider-react";
 // import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 function GuestDefaultPage() {
     const settings = {
+        controls: false,
+        // responsive: {
+        //     400: {items: 2},
+        //     600: {items: 3},
+        //     950: {items: 4},
+        //     1100: {items: 5},
+        //     1300: {items: 5},
+        // },
         lazyload: true,
         nav: false,
         mouseDrag: true,
@@ -17,6 +25,7 @@ function GuestDefaultPage() {
             style: {
                 backgroundImage: `url("Images/commercial.jpg")`,
                 height: '100vh',
+            
             },
             title: "Commercial"
         },
@@ -121,7 +130,7 @@ function GuestDefaultPage() {
                             <hr className="header__line"/>
                             <br/>
                             {/*<ScrollAnimation animateOut="fadeOut">*/}
-                                <h1 className="header__text">{el.title}</h1>
+                            <h1 className="header__text">{el.title}</h1>
                             {/*</ScrollAnimation>*/}
                             <div className="header__button">
                                 <div style={{textDecoration: 'none'}} id="header__router" path={el.title}
