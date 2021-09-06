@@ -1,17 +1,17 @@
 export const SidebarData = [
     {
-        title: 'commercial',
-        path: '/commercial',
+        title: 'Commercial',
+        path: '/Commercial',
         cName: 'nav-text'
     },
     {
-        title: 'technical',
-        path: '/technical',
+        title: 'Technical',
+        path: '/Technical',
         cName: 'nav-text'
     },
     {
-        title: 'personal',
-        path: '/personal',
+        title: 'Personal',
+        path: '/Personal',
         cName: 'nav-text'
     }
 ];

@@ -1,24 +1,30 @@
-//*{
-//  -ms-overflow-style: none;
-//}
-//::-webkit-scrollbar {
-//  display: none;
-//}
-//
-//.header {
-//  height: 100vh;
-//  position: relative;
-//  width: 100%;
-//  //object-fit: contain;
-//}
-//
-//.header.commercial {
-//  background: grey
-//}
-//.header.technical {
-//  background: red
-//}
-//.header.personal {
-//  background: yellow
-//}
-//
+* {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header__container {
+  height: 100vh;
+  //background-image: url("Images/Commercial.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  //object-fit: contain;
+ }
+
+.commercial {
+  background-color: #212121;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+
+  @media(max-width: 430px) {
+    position: absolute;
+  }
+}
+

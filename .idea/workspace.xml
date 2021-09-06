@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b92f678-eeac-45b4-9af0-9b94eca7d2fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/front/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/front/components/_top-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_top-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -44,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../starterRepo" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />

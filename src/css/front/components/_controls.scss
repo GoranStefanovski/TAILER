@@ -1,0 +1,12 @@
+.tns-nav {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  right: 0;
+  top: 50%;
+}
+
+.tns-nav > button {
+  //width: 20px;
+  color: white;
+}

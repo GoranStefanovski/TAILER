@@ -49,6 +49,11 @@
 .nav-menu.active {
   right: 0;
   transition: 550ms;
+  position: fixed;
+
+  @media (max-width: 450px) {
+    position: absolute;
+  }
 }
 
 .nav-text {

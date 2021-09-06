@@ -23,6 +23,7 @@ class GuestDefaultPage extends React.Component {
             if (this.ts != null) {
                 if (scrollDir > 0) {
                     this.ts.slider.goTo('next');
+                    // this.ts.slider.animateIn();
                 } else {
                     this.ts.slider.goTo('prev');
                 }
@@ -35,8 +36,9 @@ class GuestDefaultPage extends React.Component {
 
         const settings = {
             container: '.slider__div',
-            viewportMax: true,
-            mode: 'carousel',
+            navItems: false,
+            // viewportMax: true,
+            // mode: 'gallery',
             lazyload: true,
             nav: false,
             mouseDrag: true,
@@ -47,6 +49,8 @@ class GuestDefaultPage extends React.Component {
             speed: 2000,
             swipeAngle: false,
             controls: false,
+            // prevButton: true,
+            // nextButton: true,
         };
 
         const imgs = [
@@ -57,6 +61,7 @@ class GuestDefaultPage extends React.Component {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
+                    transition: "opacity 50s ease-in"
                 },
                 title: "Commercial"
             },
@@ -67,6 +72,7 @@ class GuestDefaultPage extends React.Component {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
+                    transition: "opacity 50s ease-in"
                 },
                 title: "Technical"
             },
@@ -77,6 +83,7 @@ class GuestDefaultPage extends React.Component {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                     backgroundSize: 'cover',
+                    transition: "opacity 50s ease-in"
                 },
                 title: "Personal"
 
