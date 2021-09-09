@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.paddingTop {
+  padding-top: 3%;
+}
+
 .tns-controls {
   /*display: none ;*/
   transform: rotate(-90deg);
@@ -34,7 +38,7 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    margin: 25% 0 0 4%;
+    margin: 18% 0 0 4%;
   }
 }
 
@@ -55,7 +59,7 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    margin: 26% 0 0 4%;
+    margin: 19% 0 0 4%;
   }
 }
 
@@ -73,7 +77,7 @@
   margin: 25% 0 0 4.5%;
 
   @media only screen and (min-width: 1024px) {
-    margin: 35% 0 0 4.5%;
+    margin: 29% 0 0 4.5%;
   }
 }
 
