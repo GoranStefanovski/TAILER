@@ -1,0 +1,33 @@
+.progress__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.progress__row > div {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.progress__row > div > span {
+  margin: 3% 0 2% 0;
+  font-width: 400;
+  font-size: 18px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #C09553 !important;
+}
+
+.CircularProgressbar {
+  width: 88% !important;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: black !important;
+  font-size: 33px !important;
+}

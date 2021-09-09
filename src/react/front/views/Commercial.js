@@ -7,9 +7,9 @@ import ImageRow from '../../../components/ImageRow/ImageRow';
 const imagePersonal = {
     backgroundImage: `url("Images/Commercial.jpg")`,
     maxHeight: '100vh',
-    // position: 'absolute',
-    backgroundPosition: 'cover',
-
+    backgroundSize: 'cover',
+    position: 'absolute',
+    backgroundRepeat: 'no-repeat',
     zIndex: '444',
     // position: 'sticky',
 }

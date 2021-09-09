@@ -137,6 +137,11 @@
   height: 228.1px;
   left: 1017px;
   top: 1866px;
+
+  @media (max-width: 450px) {
+    width: 324px !important;
+    height: 538px !important;
+  }
 }
 
 .position__image__text {

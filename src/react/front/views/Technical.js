@@ -1,12 +1,14 @@
 import React from 'react';
 // import NavBar from "../../../components/NavBar/NavBar";
 import Header from "../../../components/Header/Header";
+import ProgressRow from "../../../components/ProgressBar/ProgressRow";
 
 const imageTechnical = {
     backgroundImage: `url("Images/Technical.jpg")`,
     maxHeight: '100vh',
-    // position: 'absolute',
-    backgroundPosition: 'cover',
+    backgroundSize: 'cover',
+    position: 'absolute',
+    backgroundRepeat: 'no-repeat',
 
     zIndex: '444',
     // position: 'sticky',
@@ -18,7 +20,7 @@ function Technical() {
             <Header/>
             <div className="bgWhite">
                 <div className="info">
-
+                    <ProgressRow />
                 </div>
                 <div className="position">
                     <img className="position__image" src="Images/tech/SOVHIGS0-SUE-000_01-1 1.jpg" alt="Shtikla"/>
