@@ -6,7 +6,7 @@ import React from 'react';
 
 function CommercialRowOne() {
     return (
-        <div>
+        <div className="commercialBlack">
             <div className="CommercialRowOne">
                 <img className="CommImageOne" src="Images/commercial/M2.jpg" alt="Ovaj"/>
                 <img className="CommImageTwo" src="Images/commercial/Rossetto2b_1.jpg" alt="Ovaj"/>

@@ -5,6 +5,7 @@
 .gridSystem {
   display: grid;
   align-items: center;
+  height: 106%;
 }
 
 .imageRow__images {
@@ -20,7 +21,7 @@
   //height: 453px;
   justify-content: space-around;
   @media (min-width: 1000px) {
-    margin-top: 2%;
+    padding-top: 2%;
   }
 
   @media (max-width: 450px) {
@@ -50,6 +51,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .CommercialText > div > h1 {
   word-spacing: 18px;
 }
@@ -69,7 +71,7 @@
 }
 
 .CommercialInfo {
-  margin: 139px 0;
+  margin: 139px 0 0 0;
 }
 
 .logoColor {
@@ -120,4 +122,101 @@
 .CommercialFooter > img {
   width: 455.85px;
   height: 455.85px;
+}
+
+
+//////////////////////////////////
+//Tech Page
+/////////////////////////////////
+.position {
+  margin: 0 0 2% 0;
+}
+
+.position__image {
+  width: 619px;
+  height: 228.1px;
+  left: 1017px;
+  top: 1866px;
+}
+
+.position__image__text {
+  width: 83%;
+  margin-left: -60px;
+}
+
+.position__text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 53%;
+  padding-left: 131px;
+}
+
+.position__text > p {
+  width: 651px;
+  height: 278px;
+  left: 1020px;
+  top: 2162px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 191.4%;
+}
+
+.position__quote {
+  margin: 6% 0 6% 0;
+}
+
+.material {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.material__text {
+  margin: 0 5% 1% 21%;
+}
+
+.quote {
+  width: 1254px;
+  height: 60px;
+  //text-align: center;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  //font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 191.4%;
+}
+
+.material__text__header {
+  width: 521px;
+  height: 221.57px;
+  left: 378px;
+  top: 4410px;
+}
+
+#deal > span{
+  //width: 130.25px;
+  height: 47.16px;
+  color: #C09553;
+  text-align: left;
+}
+
+#different {
+  text-align: center;
+}
+
+.material__image > img {
+  width: 784px;
+  height: 784px;
+  left: 1137px;
+  top: 4265px;
+}
+
+.black {
+  color: black;
 }

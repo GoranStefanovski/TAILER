@@ -170,3 +170,30 @@
   left: 625px;
   top: 4678px;
 }
+
+
+////////////////////////////
+//TECH PAGE
+////////////////////////////
+
+.position__image {
+  //position: absolute;
+  width: 863px;
+  height: 958px;
+  left: 26px;
+  top: 1704px;
+}
+
+.TechImageRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.TechImageRow > img {
+  width: 453px;
+  height: 453px;
+}
+
+
