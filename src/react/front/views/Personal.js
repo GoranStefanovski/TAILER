@@ -4,7 +4,9 @@ import Header from "../../../components/Header/Header";
 const imagePersonal = {
     backgroundImage: `url("Images/Personal.jpg")`,
     height: '100vh',
+    backgroundSize: 'cover',
     position: 'absolute',
+    backgroundRepeat: 'no-repeat',
     // paddingTop: '1%'
 }
 
