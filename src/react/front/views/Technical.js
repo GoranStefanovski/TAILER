@@ -9,7 +9,7 @@ const imageTechnical = {
     backgroundSize: 'cover',
     position: 'absolute',
     backgroundRepeat: 'no-repeat',
-
+    backgroundPosition: "center",
     zIndex: '444',
     // position: 'sticky',
 }

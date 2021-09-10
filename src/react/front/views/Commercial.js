@@ -11,15 +11,13 @@ const imagePersonal = {
     position: 'absolute',
     backgroundRepeat: 'no-repeat',
     zIndex: '444',
-    // position: 'sticky',
+    backgroundPosition: "center"
 }
 
 function Commercial() {
     return (
         <div className="commercial"  style={imagePersonal}>
-                <div>
                 <Header/>
-            </div>
             <div className="bgDark">
             <ImageRow/>
             </div>
