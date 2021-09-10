@@ -28,12 +28,13 @@
 
 .commercial {
   background-color: #212121;
-  width: 100%;
-  height: 100vh;
+  //width: 100%;
+  //height: 100vh;
   overflow-x: hidden;
 
   @media(max-width: 430px) {
     position: absolute;
+    width: 100%;
   }
 }
 

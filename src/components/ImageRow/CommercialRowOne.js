@@ -7,11 +7,11 @@ import React from 'react';
 function CommercialRowOne() {
     return (
         <div className="commercialBlack">
-            <div className="CommercialRowOne">
-                <img className="CommImageOne" src="Images/commercial/M2.jpg" alt="Ovaj"/>
-                <img className="CommImageTwo" src="Images/commercial/Rossetto2b_1.jpg" alt="Ovaj"/>
-                <img className="CommImageThree" src="Images/commercial/Social_02.jpg" alt="Ovaj"/>
-                <img className="CommImageFour" src="Images/commercial/Op_1.jpg" alt="Ovaj"/>
+            <div className="CommercialRowOne firstGrid">
+                    <img className="CommImageOne" src="Images/commercial/M2.jpg" alt="Ovaj"/>
+                    <img className="CommImageTwo" src="Images/commercial/Rossetto2b_1.jpg" alt="Ovaj"/>
+                    <img className="CommImageThree" src="Images/commercial/Social_02.jpg" alt="Ovaj"/>
+                    <img className="CommImageFour" src="Images/commercial/Op_1.jpg" alt="Ovaj"/>
             </div>
             <div className="CommercialRowOne">
                 <img className="CommImageFive" src="Images/commercial/5_Def.jpg" alt="Ovaj"/>
@@ -60,17 +60,17 @@ function CommercialRowOne() {
                 </div>
                 <div className="CommercialInfoText">
                     <h5>Lorem ipsun dolor sit ament, consectur ament elite.</h5>
-                        <h5>Ust de labore aqua aliqua</h5>
+                    <h5>Ust de labore aqua aliqua</h5>
                     <h6>Office: + 1 (111) 11-11-11</h6>
                     <h6>example@gmail.com</h6>
                 </div>
             </div>
 
             <div className="CommercialFooter">
-                <img src="Images/tech/L_D_2.jpg" alt="Ovaj" />
-                <img src="Images/tech/L_D_5.jpg" alt="Ovaj" />
-                <img src="Images/tech/L_D_6.jpg" alt="Ovaj" />
-                <img src="Images/tech/L_D_6b.jpg" alt="Ovaj" />
+                <img src="Images/tech/L_D_2.jpg" alt="Ovaj"/>
+                <img src="Images/tech/L_D_5.jpg" alt="Ovaj"/>
+                <img src="Images/tech/L_D_6.jpg" alt="Ovaj"/>
+                <img src="Images/tech/L_D_6b.jpg" alt="Ovaj"/>
             </div>
         </div>
     )

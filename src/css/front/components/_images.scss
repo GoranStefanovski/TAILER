@@ -3,14 +3,14 @@
 //M2.jpg
 .CommImageOne {
   //position: absolute;
-  width: 23%;
+  //width: 23%;
   height: 453px;
-  left: 16px;
-  top: 1104px;
+  //left: 16px;
+  //top: 1104px;
 
   @media (max-width: 450px) {
-    width: 187.87px;
-    height: 187.87px;
+    width: 147.87px;
+    height: 147.87px;
     left: -3px;
     top: 593px;
   }
@@ -19,10 +19,10 @@
 //Rossetto2b_1.jpg
 .CommImageTwo {
   //position: absolute;
-  width: 21%;
+  //width: 21%;
   height: 453px;
-  left: 470px;
-  top: 1104px;
+  //left: 470px;
+  //top: 1104px;
 
   @media (max-width: 450px) {
     width: 128px;
@@ -36,10 +36,10 @@
 //Social_02.jpg
 .CommImageThree {
   //position: absolute;
-  width: 23%;
+  //width: 23%;
   height: 453px;
-  left: 883px;
-  top: 1104px;
+  //left: 883px;
+  //top: 1104px;
 
   @media (max-width: 450px) {
     width: 187.87px;
@@ -52,10 +52,10 @@
 //Op_1.jpg
 .CommImageFour {
   //position: absolute;
-  width: 23%;
+  //width: 23%;
   height: 453px;
-  right: 16px;
-  top: 1104px;
+  //right: 16px;
+  //top: 1104px;
   @media (max-width: 450px) {
   width: 129px;
   height: 188px;
@@ -67,16 +67,16 @@
 //5_Def.jpg
 .CommImageFive {
   //position: absolute;
-  width: 23%;
+  width: 23.5%;
   height: 453px;
-  left: 16px;
+  margin-left: 6px;
   top: 1597px;
 }
 
 //Eye4.jpg
 .CommImageSix {
   //position: absolute;
-  width: 47%;
+  width: 44.5%;
   height: 453px;
   left: 518px;
   top: 1597px;
@@ -118,7 +118,7 @@
   width: 628px;
   height: 385px;
   left: 625px;
-  top: 3717px;
+  margin-top: 16px;
 }
 
 //B1.jpg
@@ -137,6 +137,7 @@
   height: 517px;
   left: 100px;
   top: 4126px;
+  margin-bottom: -50px;
 }
 
 //Radiance_2.jpg
@@ -145,6 +146,7 @@
   height: 514px;
   left: 625px;
   top: 4134px;
+  margin-bottom: -50px;
 }
 
 //Medavita_Adv_C.jpg
@@ -194,6 +196,10 @@
 .TechImageRow > img {
   width: 453px;
   height: 453px;
+
+  @media (max-width: 450px) {
+    margin: 2% 0 0 0;
+  }
 }
 
 
