@@ -16,7 +16,7 @@ const imagePersonal = {
 function Personal() {
     return (
         <div className="personal" style={imagePersonal}>
-            <Header/>
+            <Header name="PERSONAL"/>
             <div className="bgDark">
                 <div className="CommercialInfo ">
                     <div className="logoColorDiv paddingTop">

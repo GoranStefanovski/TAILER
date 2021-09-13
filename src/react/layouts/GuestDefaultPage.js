@@ -92,7 +92,7 @@ class GuestDefaultPage extends React.Component {
             <TinySlider settings={settings} ref={ts => this.ts = ts}>
                 {imgs.map((el, index) => (
                     <div key={index} style={{position: "relative"}}>
-                        <div style={el.style} className="bg-Image">
+                        <div loading="lazy" style={el.style} className="bg-Image">
                             <NavBar/>
                             <div className="menuBot">
                                 <hr className="header__line"/>

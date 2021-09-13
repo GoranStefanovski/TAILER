@@ -17,7 +17,7 @@ const imageTechnical = {
 function Technical() {
     return (
         <div className="technical " style={imageTechnical}>
-            <Header/>
+            <Header name="TECHNICAL"/>
             <div className="bgWhite">
                 <div className="info">
                     <ProgressRow />

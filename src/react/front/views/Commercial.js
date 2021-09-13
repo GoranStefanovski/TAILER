@@ -17,7 +17,7 @@ const imagePersonal = {
 function Commercial() {
     return (
         <div className="commercial"  style={imagePersonal}>
-                <Header/>
+                <Header name="COMMERCIAL"/>
             <div className="bgDark">
             <ImageRow/>
             </div>

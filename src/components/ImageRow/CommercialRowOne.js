@@ -62,7 +62,7 @@ function CommercialRowOne() {
                 <div className="CommercialInfoText">
                     <h5>Lorem ipsun dolor sit ament, consectur ament elite.
                         <br/>
-                    Ust de labore aqua aliqua</h5>
+                        Ust de labore aqua aliqua</h5>
                     <h6>Office: + 1 (111) 11-11-11</h6>
                     <h6>example@gmail.com</h6>
                 </div>

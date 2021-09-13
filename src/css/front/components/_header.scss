@@ -73,3 +73,16 @@
     position: absolute;
   }
 }
+
+.header__container__text {
+  color: white;
+  text-align: center;
+  font-size: 8rem;
+  margin-top: 11%;
+  letter-spacing: 6px;
+
+  @media (max-width: 450px) {
+    font-size: 2rem;
+    margin-top: 28%;
+  }
+}
