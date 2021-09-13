@@ -6,7 +6,7 @@ import AnimatedProgressProvider from './AnimatedProgressProvider'
 function ProgressBar({valueEndProp}) {
     return (
         <div >
-            <div style={{ width: 200, height: 200}}>
+            <div class="percentCerlce">
                 <AnimatedProgressProvider
                     valueStart={0}
                     valueEnd={valueEndProp}

@@ -35,7 +35,7 @@
 
 .CommercialRowOne > img {
   @media (max-width: 450px) {
-    width: 100%;
+    //width: 100%;
     object-fit: contain;
   }
 }
@@ -61,6 +61,15 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+
+  @media (max-width: 450px) {
+
+    position: absolute;
+    width: 794px;
+    height: 794px;
+    left: -237px;
+    top: 1443px;
+  }
 }
 
 .CommercialText > div > h1 {
@@ -79,15 +88,26 @@
   font-style: normal;
   font-weight: 400;
   margin: 3% 0 0 0;
+
 }
 
 .CommercialInfo {
   margin: 139px 0 0 0;
+
+  @media (max-width: 450px) {
+    margin: 2364px 0 0 0;
+
+  }
 }
 
 .logoColor {
   width: 397px;
   height: 273px;
+
+  @media (max-width: 450px) {
+    width: 300px;
+    height: 209px;
+  }
 }
 
 .logoColorDiv {
@@ -102,6 +122,12 @@
   text-align: center;
   align-items: center;
   color: white;
+
+  @media (max-width: 450px) {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .CommercialInfoText > h5 {
@@ -111,6 +137,14 @@
   font-size: 16px;
   line-height: 228%;
   text-align: center;
+
+  @media (max-width: 450px) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 195%;
+    text-align: center;
+  }
 
 }
 
@@ -128,11 +162,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .CommercialFooter > img {
   width: 455.85px;
   height: 455.85px;
+
+  @media (max-width: 450px) {
+    width: 324px;
+    height: 229px;
+    margin: 2% 0;
+  }
 }
 
 

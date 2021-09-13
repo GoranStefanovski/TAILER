@@ -5,6 +5,9 @@ import ProgressBar from './ProgressBar';
 function ProgressRow() {
     return (
         <div className="progress">
+            <div className="progress__header">
+                
+            </div>
             <div className="progress__row">
                 <div>
                     <ProgressBar valueEndProp="75"/>

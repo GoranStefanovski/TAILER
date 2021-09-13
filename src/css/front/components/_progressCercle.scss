@@ -11,6 +11,12 @@
   justify-content: center;
   text-align: center;
   color: black;
+  //width: 180px;
+
+  @media (max-width:450px) {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .progress__row > div > span {
@@ -30,4 +36,10 @@
 .CircularProgressbar .CircularProgressbar-text {
   fill: black !important;
   font-size: 33px !important;
+}
+
+
+.percentCerlce {
+  width: 100px !important;
+  height: 100px;
 }
