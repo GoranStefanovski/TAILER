@@ -34,7 +34,8 @@ function Technical() {
                             dettagli di posizionamento perfetti , precisi, e costanti nel tempo, che soddisfano l'occhio
                             e
                             catturano l'attenzione del consumatore.
-
+                            <br />
+                            <br />
                             Le abilità di Tailer aiutano a semplificare e velocizzare le attività di gestione del
                             settore
                             e-commerce, rispettando sempre le indicazioni che il cliente ci fornisce.
