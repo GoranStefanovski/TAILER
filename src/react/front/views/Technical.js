@@ -55,9 +55,11 @@ function Technical() {
                 </div>
                 <br/>
                 <div className="TechImageRow">
+                    <div>
                     <img id="first__clock" src="Images/tech/L_D_6b.jpg" alt="madinja"/>
                     <img id="second__clock" src="Images/tech/L_D_2.jpg" alt="madinja"/>
-                    <div  id="marginTop">
+                    </div>
+                        <div id="marginTop">
                         <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
                         <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
                     </div>
@@ -81,24 +83,26 @@ function Technical() {
                 </div>
                 <br/>
                 <div className="TechImageRow marginTop">
-                    <div>
-                    <img src="Images/tech/Social__0122_2.jpg" alt="madinja"/>
-                    <img src="Images/tech/Social__0176.jpg" alt="madinja"/>
+                    <div id="marginTop">
+                        <img src="Images/tech/Social__0122_2.jpg" alt="madinja"/>
+                        <img src="Images/tech/Social__0176.jpg" alt="madinja"/>
                     </div>
                     <div className="TechImageRow__below">
                         <img src="Images/tech/ricci social4391.jpg" alt="madinja"/>
-                    <img src="Images/tech/Social__0072a.jpg" alt="madinja"/>
+                        <img src="Images/tech/Social__0072a.jpg" alt="madinja"/>
                     </div>
                 </div>
                 <br/>
                 <div className="TechImageRow">
-                    <img id="first__clock" src="Images/tech/L_D_6b.jpg" alt="madinja"/>
-                    <img id="second__clock" src="Images/tech/L_D_2.jpg" alt="madinja"/>
+                    <div>
+                        <img id="first__clock" src="Images/tech/L_D_6b.jpg" alt="madinja"/>
+                        <img id="second__clock" src="Images/tech/L_D_2.jpg" alt="madinja"/>
+                    </div>
                     <div id="marginTop">
-                    <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
-                    <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
+                        <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
+                        <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
                     </div>
-                    </div>
+                </div>
                 <div className="noMargin__CommercialInfo">
                     <div className="logoColorDiv">
                         <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>

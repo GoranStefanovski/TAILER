@@ -90,7 +90,7 @@
   font-weight: 400;
   margin: 3% 0 0 0;
 
-  @media (max-width:450px) {
+  @media (max-width: 450px) {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -107,11 +107,13 @@
 }
 
 .noMargin__CommercialInfo {
-  margin: 139px 0 0 0;
+  margin: 200px 0 0 0;
+  padding-bottom: 3%;
+
 
   @media (max-width: 450px) {
     //margin: 2364px 0 0 0;
-
+    padding-bottom: 15%;
   }
 }
 
@@ -287,7 +289,7 @@
   top: 4410px;
 }
 
-#deal > span{
+#deal > span {
   //width: 130.25px;
   height: 47.16px;
   color: #C09553;
@@ -303,7 +305,7 @@
   height: 784px;
   left: 1137px;
   top: 4265px;
-  @media (max-width: 450px ) {
+  @media (max-width: 450px) {
     width: 345px;
     height: 350px;
   }
