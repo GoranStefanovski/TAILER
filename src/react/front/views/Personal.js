@@ -17,8 +17,8 @@ function Personal() {
     return (
         <div className="personal" style={imagePersonal}>
             <Header name="PERSONAL"/>
-            <div className="bgDark">
-                <div className="CommercialInfo ">
+            <div className="bgDarkPersonal">
+                <div className="noMargin__CommercialInfo">
                     <div className="logoColorDiv paddingTop">
                         <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>
                     </div>

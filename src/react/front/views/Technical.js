@@ -20,7 +20,7 @@ function Technical() {
             <Header name="TECHNICAL"/>
             <div className="bgWhite">
                 <div className="info">
-                    <ProgressRow />
+                    <ProgressRow/>
                 </div>
                 <div className="position">
                     <img className="position__image" src="Images/tech/SOVHIGS0-SUE-000_01-1 1.jpg" alt="Shtikla"/>
@@ -34,8 +34,8 @@ function Technical() {
                             dettagli di posizionamento perfetti , precisi, e costanti nel tempo, che soddisfano l'occhio
                             e
                             catturano l'attenzione del consumatore.
-                            <br />
-                            <br />
+                            <br/>
+                            <br/>
                             Le abilità di Tailer aiutano a semplificare e velocizzare le attività di gestione del
                             settore
                             e-commerce, rispettando sempre le indicazioni che il cliente ci fornisce.
@@ -43,18 +43,24 @@ function Technical() {
                     </div>
                 </div>
 
-                <div className="TechImageRow marginTop">
-                    <img src="Images/tech/Social__0122_2.jpg" alt="madinja"/>
-                    <img src="Images/tech/Social__0176.jpg" alt="madinja"/>
-                    <img src="Images/tech/ricci social4391.jpg" alt="madinja"/>
-                    <img src="Images/tech/Social__0072a.jpg" alt="madinja"/>
+                <div className="TechImageRow">
+                    <div>
+                        <img src="Images/tech/Social__0122_2.jpg" alt="madinja"/>
+                        <img src="Images/tech/Social__0176.jpg" alt="madinja"/>
+                    </div>
+                    <div className="TechImageRow__below">
+                        <img src="Images/tech/ricci social4391.jpg" alt="madinja"/>
+                        <img src="Images/tech/Social__0072a.jpg" alt="madinja"/>
+                    </div>
                 </div>
                 <br/>
                 <div className="TechImageRow">
-                    <img src="Images/tech/L_D_6b.jpg" alt="madinja"/>
-                    <img src="Images/tech/L_D_2.jpg" alt="madinja"/>
-                    <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
-                    <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
+                    <img id="first__clock" src="Images/tech/L_D_6b.jpg" alt="madinja"/>
+                    <img id="second__clock" src="Images/tech/L_D_2.jpg" alt="madinja"/>
+                    <div  id="marginTop">
+                        <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
+                        <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
+                    </div>
                 </div>
                 <br/>
                 <div className="position__quote">
@@ -75,19 +81,25 @@ function Technical() {
                 </div>
                 <br/>
                 <div className="TechImageRow marginTop">
+                    <div>
                     <img src="Images/tech/Social__0122_2.jpg" alt="madinja"/>
                     <img src="Images/tech/Social__0176.jpg" alt="madinja"/>
-                    <img src="Images/tech/ricci social4391.jpg" alt="madinja"/>
+                    </div>
+                    <div className="TechImageRow__below">
+                        <img src="Images/tech/ricci social4391.jpg" alt="madinja"/>
                     <img src="Images/tech/Social__0072a.jpg" alt="madinja"/>
+                    </div>
                 </div>
                 <br/>
                 <div className="TechImageRow">
-                    <img src="Images/tech/L_D_6b.jpg" alt="madinja"/>
-                    <img src="Images/tech/L_D_2.jpg" alt="madinja"/>
+                    <img id="first__clock" src="Images/tech/L_D_6b.jpg" alt="madinja"/>
+                    <img id="second__clock" src="Images/tech/L_D_2.jpg" alt="madinja"/>
+                    <div id="marginTop">
                     <img src="Images/tech/L_D_5.jpg" alt="madinja"/>
                     <img src="Images/tech/L_D_6.jpg" alt="madinja"/>
-                </div>
-                <div className="CommercialInfo">
+                    </div>
+                    </div>
+                <div className="noMargin__CommercialInfo">
                     <div className="logoColorDiv">
                         <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>
                     </div>

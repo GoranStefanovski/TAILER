@@ -1,2 +1,14 @@
+#marginTop {
+  margin-top: 1%;
+}
 
+.menuBot {
+  @media (max-width: 450px) {
+    margin-top: -25%;
+    //margin-top: -25%;
+  }
+}
 
+.noHeight {
+  height: auto;
+}
