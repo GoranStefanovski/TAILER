@@ -16,7 +16,7 @@ function ProgressRow() {
                         editori altamente specializzati lavorano contemporaneamente in qualità e quantità, per gestire
                         abilmente grandi volumi di immagini di prodotti di lusso.</p>
                 </div>
-                <div className="progress__row">
+                <div className="progress__row" loading="lazy">
                     <div>
                         <ProgressBar valueEndProp="75"/>
                         <span>Example</span>

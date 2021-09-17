@@ -108,6 +108,7 @@ class GuestDefaultPage extends React.Component {
                         </div>
                     </div>
                 ))}
+
             </TinySlider>
 
         </div>)

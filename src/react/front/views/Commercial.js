@@ -8,7 +8,7 @@ const imagePersonal = {
     backgroundImage: `url("Images/Commercial.jpg")`,
     maxHeight: '100vh',
     backgroundSize: 'cover',
-    position: 'absolute',
+    // position: 'absolute',
     backgroundRepeat: 'no-repeat',
     zIndex: '444',
     backgroundPosition: "center"

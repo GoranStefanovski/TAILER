@@ -1,37 +1,104 @@
 import React from 'react';
-import Header from "../../../components/Header/Header";
+// import Header from "../../../components/Header/Header";
+import TinySlider from "tiny-slider-react";
+import NavBar from "../../../components/NavBar/NavBar";
+import {Link} from "react-router-dom";
 
-const imagePersonal = {
-    backgroundImage: `url("Images/Personal.jpg")`,
-    maxHeight: '100vh',
-    backgroundSize: 'cover',
-    position: 'absolute',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: "center",
-    zIndex: '444',
+class Personal extends React.Component {
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+        document.addEventListener('wheel', (event) => {
+            let canScroll = true;
+            if (!canScroll) {
+                return;
+            }
 
-    // paddingTop: '1%'
-}
+            canScroll = false;
+            setTimeout(() => {
+                canScroll = true;
+            }, 250);
 
-function Personal() {
-    return (
-        <div className="personal" style={imagePersonal}>
-            <Header name="PERSONAL"/>
-            <div className="bgDarkPersonal">
-                <div className="noMargin__CommercialInfo">
-                    <div className="logoColorDiv paddingTop">
-                        <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>
+            let scrollDir = event.deltaY > 1 ? 1 : -1;
+            if (this.ts != null) {
+                if (scrollDir > 0) {
+                    this.ts.slider.goTo('next');
+                    // this.ts.slider.animateIn();
+                } else {
+                    this.ts.slider.goTo('prev');
+                }
+            }
+        });
+    };
+
+
+    render() {
+
+        const settings = {
+            container: '.slider__div',
+            navItems: false,
+            // viewportMax: true,
+            // mode: 'gallery',
+            lazyload: true,
+            nav: false,
+            mouseDrag: true,
+            axis: 'vertical',
+            preventScrollOnTouch: 'force',
+            animateIn: "fadeIn",
+            animateOut: "fadeOut",
+            speed: 2000,
+            swipeAngle: false,
+            controls: false,
+            // prevButton: true,
+            // nextButton: true,
+        };
+
+        const imgs = [
+            {
+                style: {
+                    backgroundImage: `url("Images/Commercial.jpg")`,
+                    height: '100vh',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    transition: "opacity 50s ease-in"
+                },
+                title: "ProjectOne"
+            },
+            {
+                style: {
+                    backgroundImage: `url("Images/Technical.jpg")`,
+                    height: '100vh',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    transition: "opacity 50s ease-in"
+                },
+                title: "ProjectTwo"
+            }];
+        return (<div className="slider__div">
+            <TinySlider settings={settings} ref={ts => this.ts = ts}>
+                {imgs.map((el, index) => (
+                    <div key={index} style={{position: "relative"}}>
+                        <div loading="lazy" style={el.style} className="bg-Image">
+                            <NavBar/>
+                            <div className="menuBot">
+                                <hr className="header__line"/>
+                                <br/>
+                                <h1 className="header__text">{el.title}</h1>
+                                <div className="header__button">
+                                    <Link style={{textDecoration: 'none'}} id="header__router" to={el.title}>
+                                        <h4 className="header__router__text">Explore</h4>
+                                        <button>--></button>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="CommercialInfoText">
-                        <h5>Lorem ipsun dolor sit ament, consectur ament elite.</h5>
-                        <h5>Ust de labore aqua aliqua</h5>
-                        <h6>Office: + 1 (111) 11-11-11</h6>
-                        <h6>example@gmail.com</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+                ))}
+
+            </TinySlider>
+        </div>)
+   }
 }
 
 export default Personal;
