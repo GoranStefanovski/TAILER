@@ -66,6 +66,7 @@ function Technical() {
                 </div>
                 <br/>
                 <div className="position__quote">
+                    <img className="quote__image" src="Images/tech/quotes.png" alt="quotes" />
                     <p className="quote">…inviaci i tuoi prodotti, a tutto il resto pensiamo noi!</p>
                 </div>
                 <div className="material">

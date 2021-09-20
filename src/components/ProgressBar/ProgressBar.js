@@ -5,7 +5,7 @@ import { easeQuadInOut } from 'd3-ease'
 import AnimatedProgressProvider from './AnimatedProgressProvider'
 function ProgressBar({valueEndProp}) {
     return (
-        <div >
+        <div>
             <div class="percentCerlce">
                 <AnimatedProgressProvider
                     valueStart={0}
@@ -22,7 +22,7 @@ function ProgressBar({valueEndProp}) {
                                 /* This is important to include, because if you're fully managing the
                                 animation yourself, you'll want to disable the CSS animation. */
                                 styles={buildStyles({ pathTransition: 'none' })}
-                                strokeWidth={3}
+                                stroke-width={3}
 
                             />
                         );
