@@ -66,7 +66,7 @@ function Technical() {
                 </div>
                 <br/>
                 <div className="position__quote">
-                    <img className="quote__image" src="Images/tech/quotes.png" alt="quotes" />
+                    <img className="quote__image" src="Images/tech/quotes.png" alt="quotes"/>
                     <p className="quote">…inviaci i tuoi prodotti, a tutto il resto pensiamo noi!</p>
                 </div>
                 <div className="material">
@@ -75,6 +75,13 @@ function Technical() {
                             <h1 id="deal"><span>Deal</span> with</h1>
                             <h1 id="different">Different</h1>
                             <h1 id="materials">Materials</h1>
+                        </div>
+                        <div className="material__text__para">
+                            <p>Essere pienamente consapevoli dell'interpretazione dei materiali da costruzione
+                                attraverso specifiche tecniche di illuminazione fa la differenza. Lavoriamo in questo
+                                campo da molti anni e sappiamo come accentuare la consistenza e la qualità di ogni tipo
+                                di materiale per evidenziare l'appeal tattile di qualsiasi prodotto.
+                            </p>
                         </div>
                     </div>
                     <div className="material__image">
