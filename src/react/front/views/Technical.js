@@ -72,9 +72,7 @@ function Technical() {
                 <div className="material">
                     <div className="material__text">
                         <div className="material__text__header">
-                            <h1 id="deal"><span>Deal</span> with</h1>
-                            <h1 id="different">Different</h1>
-                            <h1 id="materials">Materials</h1>
+                          <img src="Images/tech/Different.png" alt="Different Materials" />
                         </div>
                         <div className="material__text__para">
                             <p>Essere pienamente consapevoli dell'interpretazione dei materiali da costruzione
@@ -138,7 +136,7 @@ function Technical() {
                         </div>
                     </div>
                     <div id="svg__row__right">
-                        <svg width="584" height="890" viewBox="0 0 584 890" fill="none"
+                        <svg id="svg__first" width="584" height="890" viewBox="0 0 584 890" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M95.5522 489.93L284.52 163.768L661.468 164.339L849.448 491.07L660.48 817.231L283.532 816.661L95.5522 489.93Z"

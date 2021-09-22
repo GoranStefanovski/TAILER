@@ -29,18 +29,15 @@ function About() {
             <h1 className="about__header">ABOUT US</h1>
             <div className="row content">
                 <div className="col-md-12 flex">
-                    <div className="col-md-2">
-                        <img className="team__image" src="Images/about/team.png" alt="our team"/>
-                    </div>
-                    <div className="col-md-8">
-                        <p className="team__paragraph">Tailer fornisce un contributo completo ad i brand che ci
-                            contattano per valorizzare i propri
-                            prodotti, si differenzia dai competitor per la ricerca creativa e la sensibilità di lettura
-                            del prodotto. Lo studio può lavorare in collaborazione con il tema Marketing del brand, o
-                            contribuire con servizi di consulenza creativa. Le attività dello studio sono organizzate
-                            per la creazione di immagini video e fotografiche destinate al modo social advertising
-                            e </p>
-                    </div>
+
+                    <img className="team__image" src="Images/about/team.png" alt="our team"/>
+                    <p className="team__paragraph">Tailer fornisce un contributo completo ad i brand che ci
+                        contattano per valorizzare i propri
+                        prodotti, si differenzia dai competitor per la ricerca creativa e la sensibilità di lettura
+                        del prodotto. Lo studio può lavorare in collaborazione con il tema Marketing del brand, o
+                        contribuire con servizi di consulenza creativa. Le attività dello studio sono organizzate
+                        per la creazione di immagini video e fotografiche destinate al modo social advertisinge
+                    </p>
                 </div>
             </div>
             <div className="row minusMargin">
@@ -56,8 +53,8 @@ function About() {
                         )}
                 </div>
             </div>
-            <div className="row flexTwo content">
-                <div className="col-md-4 offset-1 about__work">
+            <div className="howWeWork">
+                <div className="about__work">
                     <img src="Images/about/HowWeWork.png" alt="HowWeWork"/>
                     <p>Tailer fornisce un contributo completo ad i brand che ci contattano per valorizzare i propri
                         prodotti, si differenzia dai competitor per la ricerca creativa e la sensibilità di lettura del
@@ -65,13 +62,11 @@ function About() {
                         contribuire con servizi di consulenza creativa. Le attività dello studio sono organizzate per la
                         creazione di immagini video e fotografiche destinate al modo social advertising e </p>
                 </div>
-                <div className="col-md-6 ">
-                    <img id="workImage" src="Images/commercial/H3.jpg" alt="work" />
-                </div>
+                <img id="workImage" src="Images/commercial/H3.jpg" alt="work"/>
             </div>
             <div className="row">
                 <div className="col-md-12">
-                    <img id="fullImg" src="Images/Personal.jpg" alt="about" />
+                    <img id="fullImg" src="Images/Personal.jpg" alt="about"/>
                 </div>
             </div>
             <div className="noMargin__CommercialInfo">
@@ -101,7 +96,7 @@ function About() {
                     </div>
                 </div>
                 <div id="svg__row__right">
-                    <svg width="584" height="890" viewBox="0 0 584 890" fill="none"
+                    <svg id="svg__first" width="584" height="890" viewBox="0 0 584 890" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M95.5522 489.93L284.52 163.768L661.468 164.339L849.448 491.07L660.48 817.231L283.532 816.661L95.5522 489.93Z"

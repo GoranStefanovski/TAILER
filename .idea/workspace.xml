@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3b92f678-eeac-45b4-9af0-9b94eca7d2fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageRow/CommercialRowOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageRow/CommercialRowOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/base/_defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/base/_defaults.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/components/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/components/_imageRow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_imageRow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/front/views/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/front/views/Personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/Personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/front/views/Technical.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/Technical.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +37,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/css/front/components/_slider.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/css/front/app.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/react/front/views/Personal.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/react/front/views/Technical.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/front/app.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/react/front/views/CommercialTwo.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/front/components/_about-us.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/front/base/_defaults.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/ImageRow/ImageRow.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/ImageRow/CommercialRowOne.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Projects/ProjectOne.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/front/components/_images.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/front/components/_imageRow.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1vfPnaIeCj7z0bnsLaXKTD2FoO9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../starterRepo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eventlokale" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +108,9 @@
       <workItem from="1629113366907" duration="25000" />
       <workItem from="1629268533909" duration="123000" />
       <workItem from="1629268974126" duration="299000" />
+      <workItem from="1631621596732" duration="95000" />
+      <workItem from="1632296462771" duration="14168000" />
+      <workItem from="1632321296701" duration="2303000" />
     </task>
     <servers />
   </component>

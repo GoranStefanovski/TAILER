@@ -1,6 +1,6 @@
 #marginTop {
   @media (max-width: 450px) {
-    margin-top: -6%;
+    margin-top: 96%;
   }
   }
 
@@ -14,3 +14,12 @@
 .noHeight {
   height: auto;
 }
+ #second__clock {
+   @media (max-width: 450px) {
+   position: absolute;
+   width: 440px;
+   object-fit: contain;
+   height: 322px;
+   margin-top: -5%;
+   }
+ }

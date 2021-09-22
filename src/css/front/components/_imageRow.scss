@@ -61,16 +61,24 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-
+  padding: 8% 0;
   @media (max-width: 450px) {
 
-    position: absolute;
+    position: relative;
     width: 794px;
     height: 794px;
     left: -237px;
     top: 1443px;
-    margin-top: -35%;
+    margin-top: -137%;
+    padding: 0 0 5% 0;
   }
+}
+
+.CommercialText > div {
+  margin-top: -105%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .CommercialText > div > h1 {
@@ -99,7 +107,9 @@
 
 .CommercialInfo {
   margin: 139px 0 0 0;
-
+  //display: flex;
+  align-items: center;
+  justify-content: space-between;
   @media (max-width: 450px) {
     margin: 2364px 0 0 0;
 
@@ -297,12 +307,25 @@
   font-weight: normal;
   font-size: 48px;
   line-height: 191.4%;
+
+  @media (max-width: 450px) {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 191.4%;
+    text-align: center;
+  }
 }
 
 .quote__image {
   margin-left: auto;
   margin-right: auto;
   width: 125px;
+
+  @media (max-width: 420px) {
+    width: 60px;
+  }
 }
 
 .material__text__header {
@@ -310,6 +333,14 @@
   height: 221.57px;
   left: 378px;
   top: 4410px;
+}
+
+.material__text__header > img {
+  @media (max-width: 420px) {
+    width: 310px;
+    margin-left: -25%;
+    margin-top: 75%;
+  }
 }
 
 #deal > span {
@@ -321,6 +352,12 @@
 
 #different {
   text-align: center;
+}
+
+.material__image {
+  @media (max-width: 420px) {
+    margin-top: -629%;
+  }
 }
 
 .material__image > img {
@@ -336,4 +373,25 @@
 
 .black {
   color: black;
+}
+
+#commercial__svg__one {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#commercial__svg__two {
+  margin: -107% auto 0 auto;
+}
+
+.noFlex {
+  flex: none !important;
+}
+
+#defaultExplore {
+  margin-left: -14.4%;
+}
+
+#button__arrow {
+  margin-left: -9.9%;
 }

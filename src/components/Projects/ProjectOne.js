@@ -40,7 +40,7 @@ function ProjectOne() {
                 <img src="Images/tech/ricci social4391.jpg" alt="Project " />
                 <img src="Images/tech/ricci social4391.jpg" alt="Project " />
             </div>
-            <div className="noMargin__CommercialInfo">
+            <div className="CommercialInfo">
                 <div className="logoColorDiv">
                     <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>
                 </div>
