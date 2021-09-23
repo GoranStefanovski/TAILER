@@ -18,13 +18,15 @@ const imageProjectOne = {
 
 function ProjectOne() {
     return (
-        <div>
+        <div className="project__page">
             <div style={imageProjectOne} className="project__header">
                 <NavBar/>
                 <h1>PROJECT ONE</h1>
             </div>
             <div className="project__main">
-                <img src="Images/commercial/B1.jpg" alt="Project"/>
+
+                    <img src="Images/commercial/B1.jpg" alt="Project"/>
+
                 <div className="main__text">
                     <h2>Project 1</h2>
                     <p>Tailer fornisce un contributo completo ad i brand che ci contattano per valorizzare i propri
@@ -35,12 +37,12 @@ function ProjectOne() {
                 </div>
             </div>
             <div className="project__images">
-                <img src="Images/tech/ricci social4391.jpg" alt="Project " />
-                <img src="Images/tech/ricci social4391.jpg" alt="Project " />
-                <img src="Images/tech/ricci social4391.jpg" alt="Project " />
-                <img src="Images/tech/ricci social4391.jpg" alt="Project " />
+                <img src="Images/tech/ricci social4391.jpg" alt="Project "/>
+                <img src="Images/tech/ricci social4391.jpg" alt="Project "/>
+                <img src="Images/tech/ricci social4391.jpg" alt="Project "/>
+                <img src="Images/tech/ricci social4391.jpg" alt="Project "/>
             </div>
-            <div className="CommercialInfo">
+            <div className="noMargin__CommercialInfo">
                 <div className="logoColorDiv">
                     <img className="logoColor" src="Images/logoColor.png" alt="Tailer Logo"/>
                 </div>

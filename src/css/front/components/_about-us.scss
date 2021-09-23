@@ -1,5 +1,6 @@
 .about__page {
   overflow-x: hidden;
+  position: relative;
 }
 
 .about__header {
@@ -12,12 +13,28 @@
   //text-align: center;
   letter-spacing: 0.17em;
   text-transform: uppercase;
+
+  @media (max-width: 450px) {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+  }
 }
 
 
 .team__image {
   width: 480px;
   height: 520px;
+
+  @media (max-width: 450px) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .team__paragraph {
@@ -27,6 +44,12 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 279%;
+
+  @media (max-width:450px) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+  }
 }
 
 .flex {
@@ -36,6 +59,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 92%;
+
+  @media (max-width: 450px) {
+    display: grid;
+  }
 }
 
 .flexTwo {
@@ -44,15 +71,54 @@
   justify-content: space-evenly;
   width: 74%;
   margin-left: auto;
+  flex-wrap: wrap;
+
+  @media (max-width: 450px) {
+    width: 100% ;
+  }
 }
 
 #inside > img {
   width: 393px;
   height: 506px;
+
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 }
+
+#inside > h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+@media (max-width: 450px) {
+  margin: 8px 0;
+
+  //font-size: 18px;
+}
+}
+
+#inside > h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #C09553;
+  @media (max-width: 450px) {
+    margin: 8px 0;
+    font-size: 17px;
+  }
+}
+
 
 .minusMargin {
   margin-top: -7% !important;
+  @media (max-width: 450px) {
+    margin-top: 20% !important;
+  }
 }
 
 .content {

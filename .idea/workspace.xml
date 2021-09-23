@@ -6,17 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3b92f678-eeac-45b4-9af0-9b94eca7d2fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageRow/CommercialRowOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageRow/CommercialRowOne.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/front/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/front/base/_defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/base/_defaults.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/front/components/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_about-us.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/front/components/_imageRow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_imageRow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/front/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react/front/views/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/front/components/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/front/components/_project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/front/views/Personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/Personal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react/front/views/Technical.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/front/views/Technical.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/layouts/GuestDefaultPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +105,8 @@
       <workItem from="1631621596732" duration="95000" />
       <workItem from="1632296462771" duration="14168000" />
       <workItem from="1632321296701" duration="2303000" />
+      <workItem from="1632385131076" duration="679000" />
+      <workItem from="1632396167841" duration="5591000" />
     </task>
     <servers />
   </component>

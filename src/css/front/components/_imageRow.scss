@@ -279,6 +279,11 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+
+  @media (max-width: 450px) {
+    margin-bottom: -301px;
+
+  }
 }
 
 .material__text {
@@ -293,6 +298,21 @@
   font-size: 16px;
   line-height: 191.4%;
   font-weight: 400;
+  width: 75%;
+  @media (max-width: 420px) {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 191.4%;
+    text-align: left;
+    font-weight: 400;
+    width: 260px;
+    margin-left: -99%;
+    margin-top: 348%;
+
+  }
 }
 
 .quote {
@@ -336,6 +356,8 @@
 }
 
 .material__text__header > img {
+  width: 90%;
+  margin-left: -5%;
   @media (max-width: 420px) {
     width: 310px;
     margin-left: -25%;
@@ -356,7 +378,7 @@
 
 .material__image {
   @media (max-width: 420px) {
-    margin-top: -629%;
+    margin-top: -455%;
   }
 }
 
