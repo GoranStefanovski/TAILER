@@ -169,6 +169,9 @@
 #svg__row__right {
   display: flex;
   justify-content: flex-end;
+  @media (max-width: 450px) {
+    display: none;
+  }
 }
 
 #svg__first {

@@ -1,0 +1,51 @@
+.back__button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 8%;
+  left: 3%;
+
+  &hover {
+    cursor: pointer;
+  }
+
+  @media(max-width: 450px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0%;
+    left: 3%;
+  }
+}
+
+#backHomeRight {
+  position: absolute;
+  left: 8.9px;
+  display: flex;
+}
+
+#backHomeRight_arrow {
+  position: absolute;
+  left: 11%;
+  @media (max-width: 450px) {
+    left: 35%;
+  }
+}
+
+.back__button >h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.275em;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: underline;
+
+  @media (max-width: 450px) {
+    display: none;
+  }
+}

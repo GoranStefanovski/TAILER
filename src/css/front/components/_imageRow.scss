@@ -49,6 +49,18 @@
 
 .Height {
   height: 1080px;
+  @media (max-width: 340px) {
+    padding-bottom: 676%;
+  }
+
+  @media (max-width: 390px) {
+    padding-bottom: 577%;
+  }
+
+
+  @media (max-width: 420px) {
+    padding-bottom: 600%;
+  }
 }
 
 .CommercialText {
@@ -127,6 +139,12 @@
     //margin: 2364px 0 0 0;
     padding-bottom: 15%;
   }
+
+  @media (max-width: 340px) {
+    padding-top: 80%;
+    padding-bottom: 15%;
+
+  }
 }
 
 .logoColor {
@@ -201,7 +219,9 @@
   @media (max-width: 450px) {
     width: 324px;
     height: 229px;
-    margin: 2% 0;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -238,11 +258,14 @@
 }
 
 .position__text {
+  font-family: Montserrat;
   display: grid;
   align-items: center;
   justify-content: center;
   width: 50%;
   padding-left: 38px;
+  font-weight: normal;
+  line-height: 27px;
 
   @media (max-width: 450px) {
     padding-left: 0;
@@ -316,6 +339,7 @@
 }
 
 .quote {
+  font-family: Prata;
   //width: 1254px;
   height: 60px;
   //text-align: center;
@@ -329,7 +353,6 @@
   line-height: 191.4%;
 
   @media (max-width: 450px) {
-    font-family: Prata;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -411,7 +434,7 @@
 }
 
 #defaultExplore {
-  margin-left: -14.4%;
+  margin-left: -14.3%;
 }
 
 #button__arrow {

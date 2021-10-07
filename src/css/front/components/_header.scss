@@ -11,7 +11,7 @@
   padding-top: 0.9%;
   z-index: 55555555555555555;
   @media (max-width:450px) {
-    height: 6296px;
+    height: 6728px;
   }
 }
 
@@ -82,11 +82,14 @@
 }
 
 .header__container__text {
+  font-family: Prata;
   color: white;
   text-align: center;
   font-size: 8rem;
   margin-top: 11%;
-  letter-spacing: 6px;
+  line-height: 130px;
+  letter-spacing: 0.17em;
+  font-weight: normal;
 
   @media (max-width: 450px) {
     font-size: 2rem;

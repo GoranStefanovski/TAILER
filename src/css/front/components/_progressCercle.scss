@@ -45,6 +45,12 @@
 .progress__row > div > span {
   margin: 38% 0 2% 0;
   font-size: 18px;
+  //width: 61.72px;
+  //height: 13.69px;
+  //left: 50.49px;
+  //top: 1433.31px;
+
+  color: #000000;
 }
 
 .CircularProgressbar .CircularProgressbar-path {
@@ -74,9 +80,16 @@
 }
 
 .progress__right__text {
+  color: #606060;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  /* or 36px */
   word-spacing: 2px;
   text-align: left;
-  line-height: 36.48px;
+  //line-height: 36.48px;
   @media (max-width: 450px) {
     margin-top: 45%;
     width: 280px;

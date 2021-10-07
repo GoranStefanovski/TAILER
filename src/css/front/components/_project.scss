@@ -94,6 +94,12 @@
   }
 }
 
+this {
+  display: grid !important;
+  align-items: center;
+  justify-content: center;
+}
+
 .project__images > img {
   width: 24%;
   @media (max-width: 450px) {
@@ -105,7 +111,18 @@
 .svg__row {
   display: flex;
   justify-content: flex-start;
+  @media (max-width: 450px) {
+    display: none;
+  }
 }
+
+#footerMedia {
+  @media (max-width: 450px) {
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
+
 
 #svg__two {
   position: absolute;
